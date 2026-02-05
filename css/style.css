@@ -109,3 +109,77 @@ a {
 
   margin-top: 24px;
 }
+
+/* CADASTRO */
+
+.box-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #94a3b8;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+
+.step.active {
+    color: #0f172a;
+}
+
+.step .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e2e8f0;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.step.active .circle {
+    background-color: #0f172a;
+    color: #fff;
+    box-shadow: 0 0 0 4px #e0e7ff;
+}
+
+.line {
+    height: 2px;
+    background-color: #cbd5e1;
+    width: 215px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    z-index: 0;
+}
+
+.type-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.btn-next {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#step-2 {
+  z-index: 2;
+  margin-left: 130px;
+}
