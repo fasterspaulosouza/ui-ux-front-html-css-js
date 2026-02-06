@@ -183,3 +183,25 @@ div.btn-next {
   z-index: 2;
   margin-left: 130px;
 }
+
+/*
+  display block exibe o conteúdo
+  display none oculta o conteúdo
+*/
+.form-01 {
+  display: block;
+}
+
+.form-02 {
+  display: none;
+}
+
+#btn-avancar {
+  display: block;
+}
+
+#btn-finalizar {
+  display: block;
+}
+
+/* ------------------ */
